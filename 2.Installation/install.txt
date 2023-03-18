@@ -1,0 +1,23 @@
+To install the latest version of Node.js on Windows and Ubuntu, follow the instructions below:
+
+Windows:
+
+Go to the Node.js download page at https://nodejs.org/en/download/ and download the Windows Installer (.msi) file for the latest version.
+Once the download is complete, double-click on the downloaded file to launch the Node.js installer.
+Follow the prompts in the installer to complete the installation process.
+Verify that Node.js is installed correctly by opening a command prompt and typing node -v. The version number of Node.js should be displayed.
+
+Ubuntu:
+
+Open the Terminal by pressing Ctrl + Alt + T or searching for it in the Applications menu.
+Update the package list by typing sudo apt update and entering your password if prompted.
+Install Node.js using the apt package manager by typing sudo apt install nodejs.
+Verify that Node.js is installed correctly by typing node -v in the terminal. The version number of Node.js should be displayed.
+Note: The version of Node.js available in the Ubuntu repositories may not be the latest version. If you need the latest version, you can use a Node.js version manager like nvm or n.
+
+or
+
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt-get install -y nodejs
+sudo npm install -g n 
+sudo npm install -g npm@latest

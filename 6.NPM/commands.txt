@@ -1,0 +1,15 @@
+Here are some common npm commands and their descriptions:
+
+npm init: Initializes a new Node.js project and creates a package.json file.
+npm install: Installs all dependencies listed in the package.json file.
+npm install <package-name>: Installs a specific package and its dependencies.
+npm install --save <package-name>: Installs a specific package and adds it to the dependencies section of the package.json file.
+npm install --save-dev <package-name>: Installs a specific package and adds it to the devDependencies section of the package.json file.
+npm uninstall <package-name>: Uninstalls a specific package and removes it from the dependencies or devDependencies section of the package.json file.
+npm update: Updates all packages to their latest versions according to the package.json file.
+npm outdated: Shows a list of installed packages that are outdated and need to be updated.
+npm run <script-name>: Runs a script defined in the scripts section of the package.json file.
+npm list: Shows a list of installed packages and their versions.
+npm search <search-term>: Searches the NPM repository for packages that match the given search term.
+npm publish: Publishes your package to the NPM repository, making it available for others to install and use.
+These are just a few of the many npm commands available. You can get a full list of npm commands and their descriptions by running npm help.

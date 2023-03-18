@@ -1,0 +1,20 @@
+REPL stands for Read-Eval-Print Loop, and it is an interactive console or shell that 
+allows you to execute code snippets in a programming language and see their results immediately. 
+Node.js comes with its own REPL, which you can use to test and experiment with Node.js 
+code without having to create a separate file or project.
+
+To start the Node.js REPL, you can simply open your command line interface (CLI) 
+and type node followed by the Enter key. This will start the Node.js REPL, 
+and you should see a > prompt indicating that you can start typing JavaScript code.
+
+For example, you can type console.log('Hello, world!') in the REPL 
+and press Enter, and it will immediately output Hello, world! to the console.
+
+The Node.js REPL also provides several built-in commands, such as .help, 
+which displays a list of available commands, .break or Ctrl + C, which 
+allows you to exit a multiline expression, and .exit, which allows you 
+to exit the REPL altogether.
+
+Overall, the Node.js REPL is a powerful tool for quickly testing and 
+prototyping Node.js code, and it can save you a lot of time when 
+developing Node.js applications.

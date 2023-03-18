@@ -1,0 +1,27 @@
+Introduction to NPM
+
+NPM is the Standard package manager for Node.js
+As of Sep, 2022 it has around 2.1 Million packages listed in NPM registry
+NPM is a way of download and manage dependencies for both frontend and backend applications using JavaScript.
+Yarn and pnpm are the alternatives to NPM cli.
+
+NPM stands for Node Package Manager, and it is a package manager for Node.js applications. 
+It is used to install, manage, and share Node.js packages, which are collections of 
+code and libraries that you can use to add functionality to your Node.js projects.
+
+NPM provides a large repository of over one million packages that you can easily 
+install and use in your projects. It also includes a command-line interface (CLI) 
+that you can use to manage your Node.js packages and dependencies.
+
+To use NPM, you need to have Node.js installed on your computer, as NPM comes bundled with Node.js. 
+Once you have Node.js installed, you can use the npm command to install packages, manage dependencies, 
+and run scripts defined in your package.json file.
+
+For example, if you want to install the express package, you can simply run the command npm install express, 
+and NPM will download and install the package and its dependencies in your project.
+
+Overall, NPM is a vital tool for Node.js developers, as it makes it easy to install and 
+manage packages, share code with others, and build complex Node.js applications.
+
+
+Website : https://npmjs.com/

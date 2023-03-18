@@ -1,0 +1,18 @@
+
+
+// NodeJS File Systems (FS)
+
+// 1. No Need of Any Npm Package
+// 2. With These You Can Write,Read,Update,Delete Any Files and Folders
+
+
+
+// The Buffer You Get is Actually a HexaDecimal Value of a ASCII Decimal
+
+
+// ASYNC  /// 2nd 
+1.Async Await
+2.Promises
+3.Timers -- setTimeout/SetIntercval
+4.Generators
+5.Function Call Backs (FCB)
