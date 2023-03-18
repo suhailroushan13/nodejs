@@ -3,6 +3,7 @@ import url from "url";
 import fs from "fs/promises";
 import getRoute from "./routes/getRoute.js";
 import postRoute from "./routes/postRoute.js";
+import deleteRoute from "./routes/deleteRoute.js";
 
 const port = 8000;
 
@@ -24,7 +25,7 @@ let main = async () => {
         res.end("Its a PUT");
         break;
       case "DELETE":
-        res.end("Its a DELETE");
+        deleteRoute(req, res);
         break;
       default:
         res.end(JSON.stringify({ msg: "Method Not Allowed" }));

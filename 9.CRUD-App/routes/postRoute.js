@@ -1,12 +1,16 @@
 import fs from "fs/promises";
-import url from "url";
 import parser from "../util/parser.js";
 export default async function postRoute(req, res) {
   let clientUrl = req.url
     .split("/")
     .filter((x) => x !== "")
     .join("/");
-  if (clientUrl === "api/movies") {
+  console.log(clientUrl);
+
+  if (clientUrl !== "api/movies") {
+    res.writeHead(404, { "Content-Type": "text/plain" });
+    res.end(JSON.stringify({ msg: "Route Not Found" }));
+  } else {
     try {
       let outcome = await parser(req);
 
