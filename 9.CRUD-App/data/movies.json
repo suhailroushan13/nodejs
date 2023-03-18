@@ -1,1 +1,9 @@
-[{"id":"894579384759374","title":"The Avengers","year":"2022","genere":"Action","rating":"8"},{"id":"450512397317045","title":"Avengers 2","year":"2022","genere":"Action","rating":"3"},{"id":"641516331825534","title":"Avengers 3","year":"2022","genere":"Action","rating":"3"}]
+[
+  {
+    "id": "894579384759374",
+    "title": "The Avengers",
+    "year": "2022",
+    "genere": "Action",
+    "rating": "8"
+  }
+]

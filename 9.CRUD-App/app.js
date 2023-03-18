@@ -4,6 +4,7 @@ import fs from "fs/promises";
 import getRoute from "./routes/getRoute.js";
 import postRoute from "./routes/postRoute.js";
 import deleteRoute from "./routes/deleteRoute.js";
+import putRoute from "./routes/putRoute.js";
 
 const port = 8000;
 
@@ -22,7 +23,7 @@ let main = async () => {
         postRoute(req, res);
         break;
       case "PUT":
-        res.end("Its a PUT");
+        putRoute(req, res);
         break;
       case "DELETE":
         deleteRoute(req, res);
