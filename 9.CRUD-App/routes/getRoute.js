@@ -12,18 +12,18 @@ export default async function getRoute(req, res) {
     .filter((x) => x !== "")
     .join("/");
 
-  console.log(`The Method is ${req.method}`);
+  // console.log(`The Method is ${req.method}`);
 
-  console.log(`The Total Part ${clientUrlwithId}`);
+  // console.log(`The Total Part ${clientUrlwithId}`);
 
   let firstPart = clientUrlwithId.substr(0, 11);
-  console.log(`The First Part ${firstPart}`);
+  // console.log(`The First Part ${firstPart}`);
 
   let secondPart = clientUrlwithId.substr(11);
-  console.log(`The Second Part ${secondPart}`);
+  // console.log(`The Second Part ${secondPart}`);
   let data = req.movies;
 
-  console.log(clientUrl, firstPart, secondPart);
+  // console.log(clientUrl, firstPart, secondPart);
 
   if (clientUrl === "api/movies") {
     res.writeHead(200, { "Content-Type": "application/json" });

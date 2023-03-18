@@ -2,6 +2,7 @@ import http from "http";
 import url from "url";
 import fs from "fs/promises";
 import getRoute from "./routes/getRoute.js";
+import postRoute from "./routes/postRoute.js";
 
 const port = 8000;
 
@@ -9,14 +10,15 @@ let main = async () => {
   let server = http.createServer(async (req, res) => {
     let method = req.method;
 
-    let data = await fs.readFile("./movies.json", "utf-8");
+    let data = await fs.readFile("./data/movies.json", "utf-8");
     req.movies = JSON.parse(data);
+
     switch (method) {
       case "GET":
         getRoute(req, res);
         break;
       case "POST":
-        res.end("Its a POST");
+        postRoute(req, res);
         break;
       case "PUT":
         res.end("Its a PUT");
